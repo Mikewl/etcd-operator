@@ -18,10 +18,10 @@ import (
 	"testing"
 	"time"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/generated/clientset/versioned"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
-	"github.com/coreos/etcd-operator/pkg/util/retryutil"
+	api "github.com/mikewl/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/mikewl/etcd-operator/pkg/generated/clientset/versioned"
+	"github.com/mikewl/etcd-operator/pkg/util/k8sutil"
+	"github.com/mikewl/etcd-operator/pkg/util/retryutil"
 
 	"github.com/aws/aws-sdk-go/service/s3"
 	apierrors "k8s.io/apimachinery/pkg/api/errors"

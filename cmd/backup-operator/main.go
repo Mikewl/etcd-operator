@@ -21,10 +21,10 @@ import (
 	"runtime"
 	"time"
 
-	controller "github.com/coreos/etcd-operator/pkg/controller/backup-operator"
-	"github.com/coreos/etcd-operator/pkg/util/constants"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
-	version "github.com/coreos/etcd-operator/version"
+	controller "github.com/mikewl/etcd-operator/pkg/controller/backup-operator"
+	"github.com/mikewl/etcd-operator/pkg/util/constants"
+	"github.com/mikewl/etcd-operator/pkg/util/k8sutil"
+	version "github.com/mikewl/etcd-operator/version"
 
 	"github.com/sirupsen/logrus"
 	v1 "k8s.io/api/core/v1"

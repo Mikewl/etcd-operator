@@ -19,8 +19,8 @@ import (
 	"crypto/tls"
 	"fmt"
 
-	"github.com/coreos/etcd-operator/pkg/util/constants"
 	"github.com/coreos/etcd/clientv3"
+	"github.com/mikewl/etcd-operator/pkg/util/constants"
 )
 
 func ListMembers(clientURLs []string, tc *tls.Config) (*clientv3.MemberListResponse, error) {

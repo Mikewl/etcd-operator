@@ -17,9 +17,9 @@ package cluster
 import (
 	"fmt"
 
-	"github.com/coreos/etcd-operator/pkg/util/etcdutil"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
 	"github.com/coreos/etcd/etcdserver/etcdserverpb"
+	"github.com/mikewl/etcd-operator/pkg/util/etcdutil"
+	"github.com/mikewl/etcd-operator/pkg/util/k8sutil"
 	"github.com/pkg/errors"
 
 	"k8s.io/api/core/v1"

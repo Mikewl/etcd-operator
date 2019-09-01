@@ -19,10 +19,10 @@ import (
 	"errors"
 	"fmt"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/util/constants"
-	"github.com/coreos/etcd-operator/pkg/util/etcdutil"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
+	api "github.com/mikewl/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/mikewl/etcd-operator/pkg/util/constants"
+	"github.com/mikewl/etcd-operator/pkg/util/etcdutil"
+	"github.com/mikewl/etcd-operator/pkg/util/k8sutil"
 
 	"github.com/coreos/etcd/clientv3"
 	"github.com/coreos/etcd/etcdserver/api/v3rpc/rpctypes"

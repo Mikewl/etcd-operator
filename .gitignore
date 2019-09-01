@@ -29,3 +29,6 @@ _testmain.go
 
 # vendor
 vendor/
+
+# Coverage files
+coverage.txt

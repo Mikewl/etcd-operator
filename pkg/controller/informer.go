@@ -19,9 +19,9 @@ import (
 	"fmt"
 	"time"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
-	"github.com/coreos/etcd-operator/pkg/util/probe"
+	api "github.com/mikewl/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/mikewl/etcd-operator/pkg/util/k8sutil"
+	"github.com/mikewl/etcd-operator/pkg/util/probe"
 
 	metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/fields"

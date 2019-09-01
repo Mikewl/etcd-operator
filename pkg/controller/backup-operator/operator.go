@@ -20,11 +20,11 @@ import (
 	"os"
 	"sync"
 
-	api "github.com/coreos/etcd-operator/pkg/apis/etcd/v1beta2"
-	"github.com/coreos/etcd-operator/pkg/client"
-	"github.com/coreos/etcd-operator/pkg/generated/clientset/versioned"
-	"github.com/coreos/etcd-operator/pkg/util/constants"
-	"github.com/coreos/etcd-operator/pkg/util/k8sutil"
+	api "github.com/mikewl/etcd-operator/pkg/apis/etcd/v1beta2"
+	"github.com/mikewl/etcd-operator/pkg/client"
+	"github.com/mikewl/etcd-operator/pkg/generated/clientset/versioned"
+	"github.com/mikewl/etcd-operator/pkg/util/constants"
+	"github.com/mikewl/etcd-operator/pkg/util/k8sutil"
 
 	"github.com/sirupsen/logrus"
 	apiextensionsclient "k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset"
